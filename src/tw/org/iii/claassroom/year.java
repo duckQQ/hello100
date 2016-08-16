@@ -7,20 +7,20 @@ public class year {
 	public static void main(String[] args) {
 		//int Year = (int)(Math.random()*3000+1); //1-3000
 		//System.out.println(Year);
-		System.out.println("½Ğ¿é¤J¦~¥÷¡G");
+		System.out.println("è«‹è¼¸å…¥å¹´ä»½ï¼š");
 		int Year;
 		Scanner scanner = new Scanner(System.in);
 		Year = scanner.nextInt();
 		if (Year%4 != 0){
-			System.out.println("¥­¦~4");
+			System.out.println("å¹³å¹´");
 		} else {
 			if(Year%100 != 0){
-				System.out.println("¶|¦~100");
+				System.out.println("é–å¹´");
 			}else {
 				if(Year%400 !=0){
-					System.out.println("¥­¦~400");
+					System.out.println("å¹³å¹´");
 				}else{
-					System.out.println("¶|¦~400");
+					System.out.println("é–å¹´");
 				}
 				
 			}
