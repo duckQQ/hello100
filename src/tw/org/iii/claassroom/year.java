@@ -12,15 +12,15 @@ public class year {
 		Scanner scanner = new Scanner(System.in);
 		Year = scanner.nextInt();
 		if (Year%4 != 0){
-			System.out.println("¥­¦~4");
+			System.out.println("¥­¦~");
 		} else {
 			if(Year%100 != 0){
-				System.out.println("¶|¦~100");
+				System.out.println("¶|¦~");
 			}else {
 				if(Year%400 !=0){
-					System.out.println("¥­¦~400");
+					System.out.println("¥­¦~");
 				}else{
-					System.out.println("¶|¦~400");
+					System.out.println("¶|¦~");
 				}
 				
 			}
