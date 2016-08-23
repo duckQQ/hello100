@@ -16,7 +16,7 @@ public class shuffling {
 			}
 		System.out.println();
 		//shuffling
-		for (int j = 0; j < 10; j++) {
+		for (int j = 0; j < 26; j++) {
 			rand = (int) (Math.random() *n);
 			int index = cards.length;			
 				temp = cards[rand];
